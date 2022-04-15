@@ -3,5 +3,5 @@ import rootReducer from ".";
 import { logger } from 'redux-logger';
 
 const store = createStore(rootReducer, applyMiddleware(logger));
-
+console.log('hyy');
 export default store;
